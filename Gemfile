@@ -16,6 +16,8 @@ group :production do
 end
 # Use carrierwave as the image upload software
 gem 'carrierwave'
+# Use Imagemagick to produce thumbnail images
+gem 'mini_magick', '4.8.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -24,6 +26,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
+# Use Devise for authentacation
+gem 'devise'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
