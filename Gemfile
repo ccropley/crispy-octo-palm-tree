@@ -28,6 +28,9 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 # Use Devise for authentacation
 gem 'devise'
+# Use Activeadmin for site admin panel
+gem 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 # Use gravtastic for user aviatars
 gem 'gravtastic'
 # Use CoffeeScript for .coffee assets and views
